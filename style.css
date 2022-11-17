@@ -62,7 +62,91 @@ color: aqua;
 height: 225px;
 padding-bottom: 100px;
 margin: 0 0 47px 38px;
-font-family: ;
+font-family: 'Playfair Display', serif ;
+color: blue;
+line-height: 1.7em;
+font-size: 15px;
+font-weight: lighter;
+overflow: hidden;
+
 }
 
-    
+    .botaopreco{
+
+height: 103px;
+padding-right: 50px;
+width: 327px;
+margin-top: 50px;
+position: absolute;
+
+
+    }
+
+
+.botaopreco p{
+
+display: inline-block;
+position: relative;
+top: -10px;
+height: 50px;
+font-family: 'Trocchi' serif;
+margin: 0 0 0 50px;
+font-size: 20px;
+font-weight: lighter;
+color: rgb(6, 32, 32);
+
+}
+
+span{
+
+display: inline-block;
+height: 110px;
+margin: auto;
+font-family: 'Suranna', serif;
+font-size: 30px;
+
+
+}
+
+.botaopreco button{
+
+float: right;
+display: inline-block;
+height: 50px;
+width: 176px;
+margin: 0 60px 0 16px;
+box-sizing: border-box;
+border: transparent;
+border-radius: 60px;
+font-family: 'releway', sans-serif;
+font-size: 14px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: rgb(3, 6, 7);
+background-color: rgb(82, 122, 134);
+cursor:pointer;
+outline: none;
+
+}
+
+.botaopreco button:hover {
+background-color: rgb(228, 238, 228);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
